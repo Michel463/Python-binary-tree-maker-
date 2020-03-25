@@ -12,4 +12,7 @@ class Node:
 
 root = Node(10)
 
-root.PrintTree()
+root.left(2)
+root.right(12)
+root.right.right(11)
+
